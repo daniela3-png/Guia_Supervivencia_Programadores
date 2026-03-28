@@ -12,17 +12,31 @@
 </header>
 
 <nav>
-    <a href="#">Inicio</a> | <a href="#">Personajes</a>
+    <a href="#inicio">Inicio</a> |
+    <a href="#personajes">Personajes</a>
 </nav>
 
 <main>
-    <section>
+
+    <section id="inicio">
         <h2>Bienvenidos</h2>
         <p>Un nuevo espacio de experimentación en código, espero no morir en el intento.</p>
+
+        <div class="reglas">
+            <h3>Reglas (que puedes seguír o no) del Novato:</h3>
+            <ul>
+                <li> El café es el combustible principal... (ooh, no, java?)</li>
+                <li> Haz commit antes de que se corte la luz.</li>
+                <li> El profe es tu mejor amigo (después Gemini).</li>
+                <li> Si el código no funciona, duerme y mañana verás el error.</li>
+                <li> Y finalmente, sólo práctica, esperemos que un día puedas programar así como respirar </li>
+            </ul>
+        </div>
     </section>
 
-    <section>
-        <h2>Mis Aliados</h2>
+
+    <section id="personajes">
+            <h2>Mis Aliados</h2>
         <table>
             <thead>
             <tr>

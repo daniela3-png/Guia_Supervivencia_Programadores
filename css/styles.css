@@ -62,12 +62,39 @@ table {
 }
 
 th {
-    background-color: #1da5ea; /* Color de tu encabezado original */
+    background-color: #1da5ea;
     color: white;
     padding: 10px;
 }
 
 td {
     padding: 10px;
-    text-align: center;    /* Alineación de texto centrada [cite: 322] */
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+    padding: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.reglas {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #1da5ea;
+    border-radius: 5px;
+    color: #333;
+}
+
+.reglas h3 {
+    margin-top: 0;
+    color: #a625e8;
+}
+
+ul {
+    padding-left: 20px;
 }
