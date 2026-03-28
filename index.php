@@ -1,52 +1,9 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0">
-    <title>Guía de Supervivencia - Daniela</title>
-
-    <style>
-        body {
-            background-color: #a625e8;
-            font-family: Arial, sans-serif;
-            margin: 0;
-        }
-        header, footer {
-            background-color: #1da5ea;
-            color: #ffffff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background: #ddd;
-            padding: 5px;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            border: 3px solid #000000;
-            margin-bottom: 10px;
-            padding: 10px;
-            background: white;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center; /* Aprovechamos de centrar el texto de la tabla */
-        }
-
-        /* Clase para centrar las imágenes como querías */
-        td img {
-            display: block;
-            margin: 0 auto;
-            border-radius: 8px; /* Un toque de la semana 3 */
-        }
-    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guía de Supervivencia - Daniela</title>
+        <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
