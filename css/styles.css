@@ -1,59 +1,45 @@
-
 body {
     background-color: #a625e8;
     font-family: Arial, sans-serif;
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 header, footer {
     background-color: #1da5ea;
     color: #ffffff;
     padding: 10px;
     text-align: center;
 }
+
 nav {
     background: #ddd;
-    padding: 5px;
-}
-main {
-    padding: 20px;
-}
-section {
-    border: 3px solid #000000;
-    margin-bottom: 10px;
     padding: 10px;
-    background: white;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid black;
-    padding: 8px;
     text-align: center;
 }
 
-
-td img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 8px;
-}
-.seccion-pro {
-    margin: 20px auto;
-    padding: 15px;
-    border: 2px solid #000;
-    max-width: 800px;
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 10px;
 }
 
 section {
-    margin: 20px 0;
+    border: 3px solid #000000;
+    margin: 20px auto;
     padding: 20px;
-    border: 3px solid #000;
+    background: white;
     border-radius: 15px;
-    background-color: #ffffff;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    max-width: 90%;
+}
+
+#recursos {
+    margin-top: 40px;
 }
 
 table {
@@ -68,17 +54,16 @@ th {
 }
 
 td {
-    padding: 10px;
-    text-align: center;
-}
-
-td {
-    vertical-align: middle;
+    border: 1px solid #ccc;
     padding: 15px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-html {
-    scroll-behavior: smooth;
+td img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 
 .reglas {
@@ -95,6 +80,17 @@ html {
     color: #a625e8;
 }
 
-ul {
-    padding-left: 20px;
+.boton-link {
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.boton-link:hover {
+    background-color: #cc0000;
 }

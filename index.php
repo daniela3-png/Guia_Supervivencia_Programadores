@@ -13,7 +13,8 @@
 
 <nav>
     <a href="#inicio">Inicio</a> |
-    <a href="#personajes">Personajes</a>
+    <a href="#personajes">Personajes</a>|
+    <a href="#recursos">Recursos</a>
 </nav>
 
 <main>
@@ -53,13 +54,24 @@
                 <td><img src="jojojisus.webp" width="100" alt="JoJo Jisus"></td>
                 <td>JoJo Jisus</td>
             </tr>
-            </tbody>
-            <tfoot>
             <tr>
-                <td colspan="2">Total de aliados: 2</td>
+                <td><img src="todoCode.jpg" width="100" alt="Logo de TodoCode"></td>
+                <td>TodoCode (Mi salvación en Java)</td>
             </tr>
-            </tfoot>
+            </tbody>
         </table>
+    </section>
+
+    <section id="recursos">
+        <h2>Recursos de Poder</h2>
+        <p>Estos cristales de sabiduría me han salvado de morir en el intento:</p>
+
+        <h3>📺 TodoCode</h3>
+        <p>Tutoriales sobre lógica, desarrollo web y tecnología explicados para seres humanos.</p>
+
+        <a href="https://www.youtube.com/@TodoCode" target="_blank" class="boton-link">
+            Ir al canal de YouTube
+        </a>
     </section>
 </main>
 
