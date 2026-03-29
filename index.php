@@ -21,7 +21,7 @@
 
     <section id="inicio">
         <h2>Bienvenidos</h2>
-        <p>Un nuevo espacio de experimentación en código, espero no morir en el intento.</p>
+        <p>Un nuevo espacio de experimentación en código y registro de traumas (o esa es la idea).</p>
 
         <div class="reglas">
             <h3>Reglas (que puedes seguír o no) del Novato:</h3>
